@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="secondProject">
+    <output-path>$PROJECT_DIR$/out/artifacts/secondProject</output-path>
+    <root id="archive" name="secondProject.war">
+      <element id="javaee-facet-resources" facet="secondProject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="secondProject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

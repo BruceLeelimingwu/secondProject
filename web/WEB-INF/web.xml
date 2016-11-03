@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>CoreServlet</servlet-name>
+        <servlet-class>
+            servlet.CoreServlet
+        </servlet-class>
+    </servlet>
+
+    <!-- url-pattern中配置的/coreServlet用于指定该Servlet的访问路径 -->
+    <servlet-mapping>
+        <servlet-name>CoreServlet</servlet-name>
+        <url-pattern>/CoreServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
